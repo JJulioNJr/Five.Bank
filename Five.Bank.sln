@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Five.Bank.Api", "Five.Bank.Api\Five.Bank.Api.csproj", "{08F42D87-A41A-4956-B197-849633104F9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Five.Bank.Api", "Five.Bank.Api\Five.Bank.Api.csproj", "{08F42D87-A41A-4956-B197-849633104F9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Five.Bank.Application", "Five.Bank.Aplication\Five.Bank.Application.csproj", "{8A424043-8224-471D-970D-1D3D9C87DCDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Five.Bank.Domain", "Five.Bank.Domain\Five.Bank.Domain.csproj", "{231E428F-7674-46CF-9986-46E09254B481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Five.Bank.Domain", "Five.Bank.Domain\Five.Bank.Domain.csproj", "{231E428F-7674-46CF-9986-46E09254B481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Five.Bank.Infra.Services", "Five.Bank.Infra.Services\Five.Bank.Infra.Services.csproj", "{1754B509-5D5A-48F9-AD91-0730214ED066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Five.Bank.Infra.Services", "Five.Bank.Infra.Services\Five.Bank.Infra.Services.csproj", "{1754B509-5D5A-48F9-AD91-0730214ED066}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Five.Bank.Infra.MongoDb", "Five.Bank.Infra.MongoDB\Five.Bank.Infra.MongoDb.csproj", "{9ACE8A8D-8E43-4C06-A19D-860048EE0B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Five.Bank.Infra.MongoDb", "Five.Bank.Infra.MongoDB\Five.Bank.Infra.MongoDb.csproj", "{9ACE8A8D-8E43-4C06-A19D-860048EE0B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{08F42D87-A41A-4956-B197-849633104F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08F42D87-A41A-4956-B197-849633104F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08F42D87-A41A-4956-B197-849633104F9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A424043-8224-471D-970D-1D3D9C87DCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A424043-8224-471D-970D-1D3D9C87DCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A424043-8224-471D-970D-1D3D9C87DCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A424043-8224-471D-970D-1D3D9C87DCDA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{231E428F-7674-46CF-9986-46E09254B481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{231E428F-7674-46CF-9986-46E09254B481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{231E428F-7674-46CF-9986-46E09254B481}.Release|Any CPU.ActiveCfg = Release|Any CPU
