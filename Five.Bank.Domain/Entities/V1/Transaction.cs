@@ -1,14 +1,10 @@
-﻿namespace Five.Bank.Domain.Entities.V1;
-public abstract class Transaction {
+﻿using Five.Bank.Domain.Contracts.V1;
 
-
-    public Guid Id { get; init; }
-    public decimal Amount { get; init; }
-    public DateTime CreatedAt { get; init; }
-    public string? Description { get; init; }
+namespace Five.Bank.Domain.Entities.V1;
+public abstract class Transaction:IEntity {
 
     protected Transaction(decimal amount, DateTime createdAt, string? description) :
-                       this(Guid.NewGuid(), amount, createdAt, description) {
+                      this(Guid.NewGuid(), amount, createdAt, description) {
     }
 
     protected Transaction(Guid id, decimal amount, DateTime createdAt, string? description) {
@@ -17,12 +13,11 @@ public abstract class Transaction {
         CreatedAt = createdAt;
         Description = description;
     }
-
-
-
-
-
-
+   
+    public Guid Id { get; init; }
+    public decimal Amount { get; init; }
+    public DateTime CreatedAt { get; init; }
+    public string? Description { get; init; }
 
 }
 

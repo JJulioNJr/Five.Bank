@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Five.Bank.Domain\Five.Bank.Domain.csproj" />
+    <ProjectReference Include="..\Five.Bank.Infra.MongoDB\Five.Bank.Infra.MongoDb.csproj" />
+    <ProjectReference Include="..\Five.Bank.Infra.Services\Five.Bank.Infra.Services.csproj" />
+  </ItemGroup>
+
 </Project>
